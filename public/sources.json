@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Earbuds",
+        "brand": "Sony",
+        "model": "WF-1000XM4",
+        "price": 279.99,
+        "features": [
+            "Industry-leading noise cancellation",
+            "Exceptional sound quality",
+            "Up to 8 hours of battery life"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "brand": "Samsung",
+        "model": "Galaxy S21",
+        "price": 799.99,
+        "features": [
+            "5G connectivity",
+            "Powerful camera system",
+            "Dynamic AMOLED display"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Laptop",
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "price": 1299.99,
+        "features": [
+            "M1 chip",
+            "Retina display",
+            "Up to 20 hours of battery life"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Smartwatch",
+        "brand": "Garmin",
+        "model": "Venu 2",
+        "price": 399.99,
+        "features": [
+            "Advanced fitness tracking",
+            "AMOLED display",
+            "Up to 11 days of battery life"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gaming Mouse",
+        "brand": "Logitech",
+        "model": "G Pro Wireless",
+        "price": 129.99,
+        "features": [
+            "Lightweight design",
+            "High-precision HERO sensor",
+            "Up to 16000 DPI sensitivity"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Fitness Tracker",
+        "brand": "Fitbit",
+        "model": "Charge 5",
+        "price": 179.99,
+        "features": [
+            "GPS tracking",
+            "24/7 heart rate monitoring",
+            "Up to 7 days of battery life"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Camera",
+        "brand": "Canon",
+        "model": "EOS R5",
+        "price": 3899.99,
+        "features": [
+            "45 megapixel full-frame sensor",
+            "8K video recording",
+            "In-body image stabilization"
+        ]
+    }
+]

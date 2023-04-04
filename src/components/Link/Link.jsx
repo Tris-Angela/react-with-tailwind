@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Link = ({item}) => {
-    console.log(item)
+const Link = ({option}) => {
     return (
         <li className='mr-12'>
-            <a href="#">{item.brand}</a>
+            <a href={option.Link}>{option.name}</a>
         </li>
     );
 };

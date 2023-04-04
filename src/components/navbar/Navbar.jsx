@@ -4,44 +4,15 @@ import { Bars4Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const Navbar = () => {
     const [menubar, setMenubar] = useState(false)
-    const items = [
-        {
-            id: 1,
-            name: "Wireless Earbuds",
-            brand: "Apple",
-            model: "AirPods Pro",
-            price: 249.00,
-        },
-        {
-            id: 2,
-            name: "Smart Watch",
-            brand: "Samsung",
-            model: "Galaxy Watch 4",
-            price: 249.99,
-        },
-        {
-            id: 3,
-            name: "Fitness Tracker",
-            brand: "Fitbit",
-            model: "Charge 5",
-            price: 179.95,
-        },
-        {
-            id: 4,
-            name: "Gaming Console",
-            brand: "Sony",
-            model: "PlayStation 5",
-            price: 499.99,
-        },
-        {
-            id: 5,
-            name: "Robot Vacuum",
-            brand: "iRobot",
-            model: "Roomba i7+",
-            price: 799.99,
-        },
-    ];
+    
 
+    const navbarOptions = [
+        { name: 'Home', link: '/' },
+        { name: 'About', link: '/about' },
+        { name: 'Services', link: '/services' },
+        { name: 'Contact Us', link: '/contact' }
+      ];
+      
 
     return (
         <div>
@@ -53,11 +24,11 @@ const Navbar = () => {
                 </span>
 
             </div>
-                <ul className= {`md:flex absolute md:static ${menubar ? 'top-6' : '-top-48'}`}>
+                <ul className= {`md:flex absolute  bg-gray-900 text-white p-4 font-bold text-2xl md:static ${menubar ? 'top-6' : '-top-48'}`}>
                 {
-                    items.map(item => <Link
-                        key={item.id}
-                        item={item}
+                    navbarOptions.map(option => <Link
+                        key={option.id}
+                        option={option}
                     ></Link>)
                 }
             </ul>
